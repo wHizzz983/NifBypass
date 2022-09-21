@@ -112,10 +112,11 @@ int main()
 		system("color 4B");
 		hProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, pid);
 		DWORD base = dwGetModuleBaseAddress(pid, "calc.exe");
-		TerminateThreadByStartaddress(base + 0x7095e8, pid);
+		TerminateThreadByStartaddress(base+ 0x2551 + 0x7095e8, pid)s;
 		sprintf(szBuffer, "Terminate Thread Address ", base + 0x7095e8);
 		cout << szBuffer << endl;
-		cout << "Coded By Illman LOL" << endl;
+		cout << "Coded By mushNn : wHizzz#0001" << endl;
+		Console.WriteLine(Bypass.NIF.Blackshot, 0x7095e8):
 	}
 	else
 	{
